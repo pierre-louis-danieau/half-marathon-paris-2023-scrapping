@@ -16,7 +16,14 @@ Overview of results:
 
 <img width="575" alt="Capture d’écran 2023-03-19 à 11 41 55" src="https://user-images.githubusercontent.com/67114372/226170033-f3c7ed37-39d2-43c2-b743-dcf3274fab7c.png">
 
-It takes around 13 hours to execute the final_semi_marathon.py as it takes a long time to load the whole page (press "load more" and wait for the page to load 850 times)
+It takes around 13 hours to execute the `final_semi_marathon.py` as it takes a long time to load the whole page (press "load more" and wait for the page to load 850 times)
+
+## Stack 
+
+- Python
+- [Undetected Chrome driver](https://github.com/ultrafunkamsterdam/undetected-chromedriver) in order to avoid being detected as a bot. Thanks  [ultrafunkamsterdam](https://github.com/ultrafunkamsterdam). 👏👏
+- Selenium to scroll the page
+- Beautiful soup to parse the web page
 
 
 ## Execute the code locally
